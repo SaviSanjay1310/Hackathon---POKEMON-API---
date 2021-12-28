@@ -32,6 +32,11 @@ body {
 	margin: 10px;
 	padding: 20px;
 	text-align: center;
+	transition: transform 250 ms;
+}
+
+.pokemon:hover{
+	transform: translateY(-10px)
 }
 
 .pokemon .img-container {
